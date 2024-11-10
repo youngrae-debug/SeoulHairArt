@@ -1,0 +1,50 @@
+{
+    "sourceFile": "resources/views/layouts/app.blade.php",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 8,
+            "patches": [
+                {
+                    "date": 1726976299737,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1726986727495,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,10 @@\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n     <title>@yield('title', 'SeoulHairArt')</title>\n     <!-- Tailwind CSS CDN -->\n     <link href=\"https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css\" rel=\"stylesheet\">\n+    <link rel=\"stylesheet\" href=\"https://unpkg.com/swiper/swiper-bundle.min.css\"/>\n+\n </head>\n <body class=\"bg-gray-50\">\n \n     <!-- 헤더 포함 -->\n"
+                },
+                {
+                    "date": 1726986747015,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,9 @@\n     <title>@yield('title', 'SeoulHairArt')</title>\n     <!-- Tailwind CSS CDN -->\n     <link href=\"https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css\" rel=\"stylesheet\">\n     <link rel=\"stylesheet\" href=\"https://unpkg.com/swiper/swiper-bundle.min.css\"/>\n+    <script src=\"https://unpkg.com/swiper/swiper-bundle.min.js\"></script>\n \n </head>\n <body class=\"bg-gray-50\">\n \n"
+                },
+                {
+                    "date": 1726986768704,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,8 @@\n     <title>@yield('title', 'SeoulHairArt')</title>\n     <!-- Tailwind CSS CDN -->\n     <link href=\"https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css\" rel=\"stylesheet\">\n     <link rel=\"stylesheet\" href=\"https://unpkg.com/swiper/swiper-bundle.min.css\"/>\n-    <script src=\"https://unpkg.com/swiper/swiper-bundle.min.js\"></script>\n \n </head>\n <body class=\"bg-gray-50\">\n \n@@ -25,6 +24,7 @@\n     @include('partials.footer')\n \n     <!-- Optional: Tailwind JS 및 Alpine.js 스크립트 추가 -->\n     <script src=\"https://cdn.jsdelivr.net/npm/alpinejs@2.8.2\" defer></script>\n+    <script src=\"https://unpkg.com/swiper/swiper-bundle.min.js\"></script>\n </body>\n </html>\n"
+                },
+                {
+                    "date": 1726986775326,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,8 @@\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n     <title>@yield('title', 'SeoulHairArt')</title>\n     <!-- Tailwind CSS CDN -->\n     <link href=\"https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css\" rel=\"stylesheet\">\n-    <link rel=\"stylesheet\" href=\"https://unpkg.com/swiper/swiper-bundle.min.css\"/>\n \n </head>\n <body class=\"bg-gray-50\">\n \n@@ -24,7 +23,6 @@\n     @include('partials.footer')\n \n     <!-- Optional: Tailwind JS 및 Alpine.js 스크립트 추가 -->\n     <script src=\"https://cdn.jsdelivr.net/npm/alpinejs@2.8.2\" defer></script>\n-    <script src=\"https://unpkg.com/swiper/swiper-bundle.min.js\"></script>\n </body>\n </html>\n"
+                },
+                {
+                    "date": 1726988745836,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n     <!-- Tailwind CSS CDN -->\n     <link href=\"https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css\" rel=\"stylesheet\">\n \n </head>\n-<body class=\"bg-gray-50\">\n+<body class=\"bg-white-50\">\n \n     <!-- 헤더 포함 -->\n     @include('partials.header')\n \n"
+                },
+                {
+                    "date": 1727004014068,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,6 +23,8 @@\n     @include('partials.footer')\n \n     <!-- Optional: Tailwind JS 및 Alpine.js 스크립트 추가 -->\n     <script src=\"https://cdn.jsdelivr.net/npm/alpinejs@2.8.2\" defer></script>\n+<script src=\"https://cdn.jsdelivr.net/npm/instafeed.js\"></script>\n+\n </body>\n </html>\n"
+                },
+                {
+                    "date": 1727004030533,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,10 @@\n     <!-- 푸터 포함 -->\n     @include('partials.footer')\n \n     <!-- Optional: Tailwind JS 및 Alpine.js 스크립트 추가 -->\n+    <script src=\"https://cdn.jsdelivr.net/npm/instafeed.js\"></script>\n+\n     <script src=\"https://cdn.jsdelivr.net/npm/alpinejs@2.8.2\" defer></script>\n-<script src=\"https://cdn.jsdelivr.net/npm/instafeed.js\"></script>\n \n </body>\n </html>\n"
+                },
+                {
+                    "date": 1727004040625,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,10 +22,8 @@\n     <!-- 푸터 포함 -->\n     @include('partials.footer')\n \n     <!-- Optional: Tailwind JS 및 Alpine.js 스크립트 추가 -->\n-    <script src=\"https://cdn.jsdelivr.net/npm/instafeed.js\"></script>\n-\n     <script src=\"https://cdn.jsdelivr.net/npm/alpinejs@2.8.2\" defer></script>\n \n </body>\n </html>\n"
+                }
+            ],
+            "date": 1726976299737,
+            "name": "Commit-0",
+            "content": "<!-- resources/views/layouts/app.blade.php -->\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>@yield('title', 'SeoulHairArt')</title>\n    <!-- Tailwind CSS CDN -->\n    <link href=\"https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css\" rel=\"stylesheet\">\n</head>\n<body class=\"bg-gray-50\">\n\n    <!-- 헤더 포함 -->\n    @include('partials.header')\n\n    <!-- 메인 콘텐츠 -->\n    <main class=\"pt-20 md:pt-24\">\n        @yield('content')\n    </main>\n\n    <!-- 푸터 포함 -->\n    @include('partials.footer')\n\n    <!-- Optional: Tailwind JS 및 Alpine.js 스크립트 추가 -->\n    <script src=\"https://cdn.jsdelivr.net/npm/alpinejs@2.8.2\" defer></script>\n</body>\n</html>\n"
+        }
+    ]
+}
